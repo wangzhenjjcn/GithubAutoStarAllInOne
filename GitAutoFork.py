@@ -64,7 +64,7 @@ class Gitstar():
         for url in urls:
             self.fork(url)
             print "[%d]Forked! -->%s" % (i, url)
-            time.sleep(5.0)
+            time.sleep(1)
             i = i + 1
         if len(urls) > 0:
             self.update_gitstar()

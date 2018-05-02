@@ -59,7 +59,7 @@ class Gitstar():
             for url in urls:
                 self.star(url)
                 print "[%d]Stared! -->%s" % (i, url)
-                time.sleep(5.0)
+                time.sleep(0.1)
                 i = i + 1        
         finally:  
         	print "Please wait to update the data..."
